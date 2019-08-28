@@ -33,7 +33,7 @@ def update_counting_hash(hash, key)
   if hsh[key]
     hsh[key] += 1
   else
-    hsh[key] = 0
+    hsh[key] = 1
   end
   hsh
 end
